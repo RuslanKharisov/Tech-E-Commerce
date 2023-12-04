@@ -1,0 +1,130 @@
+button{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+
+}
+.m_r-14 p{
+    margin-right: 14px;
+}
+.container__button__grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    width: 818px;
+    height: 254px;
+    background-color: #E4E4E4;
+    padding: 10px;
+}
+.btn__white{
+    font-size: 16px;
+    width: 150px;
+    height: 56px;
+    border: 1px solid white;
+    color: white;
+    border-radius: 6px;
+    background-color: rgba(0, 0, 0, 0);
+}
+.btn__full{
+    font-size: 16px;
+    width: 150px;
+    height: 56px;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    border-radius: 6px;
+}
+.btn__black{
+    font-size: 16px;
+    width: 150px;
+    height: 56px;
+    color: black;
+    border: 1px solid black;
+    border-radius: 6px;
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0);
+}
+.btn__white-small{
+    font-size: 14px;
+    width: 162px;
+    height: 48px;
+    border: 1px solid white;
+    color: white;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0);
+}
+.btn__full-small{
+    font-size: 14px;
+    width: 162px;
+    height: 48px;
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+    border-radius: 8px;
+}
+.btn__black-small{
+    font-size: 14px;
+    width: 162px;
+    height: 48px;
+    color: black;
+    border: 1px solid black;
+    border-radius: 8px;
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0);
+}
+.btn__white-icon{
+    font-size: 16px;
+    width: 182px;
+    height: 56px;
+    border: 1px solid white;
+    color: white;
+    border-radius: 6px;
+    background-color: rgba(0, 0, 0, 0);
+}
+.btn__white-small-icon{
+    font-size: 14px;
+    width: 178px;
+    height: 48px;
+    border: 1px solid white;
+    color: white;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0);
+}
+.btn__full-icon{
+    font-size: 16px;
+    width: 182px;
+    height: 56px;
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+    border-radius: 6px;
+}
+.btn__full-small-icon{
+    font-size: 14px;
+    width: 178px;
+    height: 48px;
+    color: white;
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: black;
+}
+.btn__black-icon{
+    font-size: 16px;
+    width: 182px;
+    height: 56px;
+    border: 1px solid rgb(0, 0, 0);
+    color: black;
+    border-radius: 6px;
+    background-color: rgba(0, 0, 0, 0);
+}
+.btn__black-small-icon{
+    font-size: 14px;
+    width: 178px;
+    height: 48px;
+    border: 1px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0);
+}
