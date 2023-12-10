@@ -314,12 +314,6 @@ button {
   aspect-ratio: 1/1;
   object-fit: cover; }
 
-.product__cart-title {
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5;
-  /* 150% */ }
-
 .product__cart-price {
   font-size: 24px;
   font-weight: 600;
