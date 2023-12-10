@@ -1,0 +1,44 @@
+.logo__container {
+  width: 208px;
+  height: 192px;
+  background: rgba(228, 228, 228, 1);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+
+.tabs__container {
+  width: 210px;
+  height: 296px;
+  background: rgba(228, 228, 228, 1);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+
+.tabs__inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.button {
+  border: 1px solid #000;
+  border-radius: 8px;
+}
+
+.button a {
+  padding: 16px 24px 16px 24px;
+}
+
+.selected {
+  opacity: 0.4;
+}
+
+.noActive {
+  opacity: 0.2;
+}
