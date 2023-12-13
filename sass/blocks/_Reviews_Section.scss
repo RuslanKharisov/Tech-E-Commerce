@@ -1,0 +1,197 @@
+/* -----------------------Reviews_Section------------------------ */
+.container__reviews_section {
+  width: 1207.55px;
+  height: 659px;
+  background-color: #E4E4E4;
+  padding: 10px;
+}
+
+.rating {
+  display: flex;
+}
+
+.overall_rating {
+  width: 184px;
+  height: 192px;
+  border-radius: 25px;
+  text-align: center;
+  background: #FAFAFA;
+}
+
+.rating-value {
+  font-size: 56px;
+  font-weight: 500;
+  padding-top: 32px;
+  line-height: ;
+  line-height: normal;
+}
+
+.rating-count {
+  font-size: 15px;
+  height: 16px;
+  opacity: 30%;
+}
+.rating-stars{
+
+  direction: rtl;
+}
+.rating-stars a {
+  background-image: url("../images/Reviews/Star_empty.svg");
+  margin-top: 8px;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  text-decoration: none;
+  transition: all 0.5s;
+}
+.rating-stars a:hover {
+  background-image: url("../images/Reviews/Star-1.svg");
+  transform: scale(1.3);
+}
+.s1:hover ~ a {
+  background-image: url("../images/Reviews/Star-1.svg");
+}
+.s2:hover ~ a {
+  background-image: url("../images/Reviews/Star-1.svg");
+}
+.s3:hover ~ a {
+  background-image: url("../images/Reviews/Star-1.svg");
+}
+.s4:hover ~ a {
+  background-image: url("../images/Reviews/Star-1.svg");
+}
+.s5:hover ~ a {
+  background-image: url("../images/Reviews/Star-1.svg");
+}
+
+/* -----------------------Detail_Rating------------------------ */
+.Excellent_comments {
+  margin-left: 65px;
+  font-size: 18px;
+}
+
+.counts__group-bar {
+  background: #f2f2f2;
+  border-radius: 8px;
+  color: #fff;
+  display: inline-block;
+  margin-left: 12px;
+  width: 703.55px;
+}
+
+.counts__group-bar-filled {
+  align-items: center;
+  background: #ffa319;
+  border-radius: 8px;
+  display: flex;
+  height: 8px;
+  justify-content: space-between;
+  min-width: 8px;
+  padding-left: 10px;
+  padding-right: 5px;
+}
+
+.number_comments {
+  margin-left: 16px;
+  opacity: 40%;
+}
+
+/* -----------------------Comment------------------------ */
+
+.reviews-carousel {
+  display: flex;
+  margin-top: 98px;
+  width: 1127.55px;
+  height: 256px;
+  border-radius: 10px;
+  gap: 19px;
+  background: #FAFAFA;
+}
+
+.name-data_comments {
+  display: flex;
+  justify-content: space-between;
+}
+
+.name_comments {
+  margin-top: 24px;
+  font-weight: 600;
+}
+
+.data_comments {
+  margin-top: 24px;
+  margin-right: 28px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0em;
+  opacity: 20%;
+
+}
+
+.rating-stars_comments {
+  margin-top: 8px;
+  transform: translate(-87%);
+  direction: rtl;
+}
+
+.rating-stars_comments a {
+  
+  background-image: url("../images/Reviews/Star_empty.svg");
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  text-decoration: none;
+  transition: all 0.5s;
+}
+.rating-stars_comments a:hover {
+  background-image: url("../images/Reviews/Star-1.svg");
+  transform: scale(1.3);
+}
+.s1:hover ~ a {
+  background-image: url("../images/Reviews/Star-1.svg");
+}
+.s2:hover ~ a {
+  background-image: url("../images/Reviews/Star-1.svg");
+}
+.s3:hover ~ a {
+  background-image: url("../images/Reviews/Star-1.svg");
+}
+.s4:hover ~ a {
+  background-image: url("../images/Reviews/Star-1.svg");
+}
+.s5:hover ~ a {
+  background-image: url("../images/Reviews/Star-1.svg");
+}
+
+.text_comments {
+  margin-bottom: 8px;
+  margin-right: 28px;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  color: #7E7E7E;
+}
+
+.img_User-Pic {
+  display: block;
+  width: 56px;
+  height: 56px;
+  margin-top: 24px;
+  margin-left: 16px;
+}
+
+.img_comments {
+  display: flex;
+}
+
+.img_comments img {
+  margin-right: 8px;
+}
