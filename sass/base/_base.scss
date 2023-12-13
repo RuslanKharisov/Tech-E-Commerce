@@ -9,7 +9,7 @@ body {
 	display: flex; /* sticky footer */
 	flex-direction: column; /* sticky footer */
 
-    color: var(--main-black, #000);
+    color: var(--main-text, #CFCFCF);
     font-family: 'SF Pro Display', sans-serif ; /* sans-serif font family */
     font-size: 16px;
     font-weight: 500;
@@ -19,8 +19,8 @@ body {
 	-webkit-font-smoothing: antialiased;
 	-ms-text-size-adjust: 100%;
 	-moz-text-size-adjust: 100%;
-	-webkit-text-size-adjust: 100%;    
-    background-color: #E4E4E4;
+	-webkit-text-size-adjust: 100%;
+    background-color: var(--main-black, #000);
 }
 
 body > * {
@@ -39,7 +39,7 @@ section {
 }
 
 .container {
-	max-width: 1610px;
+	max-width: 1150px;
 	margin-left: auto;
     margin-right: auto;
 	padding-left: 15px;
