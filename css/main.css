@@ -330,7 +330,9 @@ button {
 
 .elements {
   display: flex;
-  justify-content: space-around; }
+  justify-content: start;
+  align-items: start;
+  gap: 100px; }
 
 .inputs__container {
   display: flex;
@@ -345,7 +347,7 @@ input {
 
 span {
   display: block;
-  margin-bottom: 8px; }
+  margin-bottom: 16px; }
 
 label {
   display: flex;
@@ -366,7 +368,7 @@ label {
   right: 9px; }
 
 .cvv input {
-  padding: 12px 33px 12px 16px; }
+  padding: 15px 33px 15px 16px; }
 
 .card__number span {
   display: block;
@@ -374,7 +376,7 @@ label {
 
 .card__number input {
   width: 336px;
-  padding: 16px;
+  padding: 23px 16px 23px 16px;
   margin-bottom: 10px; }
 
 .search {
@@ -386,12 +388,22 @@ label {
   height: 24px;
   background: url("/images/Icons/Search-24.svg");
   position: absolute;
-  top: 44px;
-  left: 20px; }
+  top: 56%;
+  left: 5%; }
+
+.apply {
+  border: 1px solid black;
+  border-radius: 6px;
+  padding: 8px;
+  width: 77px;
+  background-color: #fff;
+  position: absolute;
+  top: 23.5%;
+  right: 82%; }
 
 .search input {
   width: 216px;
-  padding: 16px 16px 16px 48px; }
+  padding: 23px 16px 23px 48px; }
 
 .dropdown select {
   width: 230px;
@@ -436,6 +448,55 @@ label {
 
 .noActive {
   opacity: 0.2; }
+
+.cards {
+  margin: 100px;
+  display: flex;
+  flex-direction: column;
+  width: 251px; }
+
+h1 {
+  margin-bottom: 16px; }
+
+.content__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 160px;
+  height: 128px;
+  border-radius: 15px;
+  background-color: #fff;
+  margin-bottom: 24px; }
+
+.content__card img {
+  width: 48px;
+  height: 48px; }
+
+.detail__card {
+  width: 164px; }
+
+.detail__card img {
+  width: 24px;
+  height: 24px; }
+
+.detail__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  height: 64px;
+  background-color: #fff;
+  border-radius: 7px; }
+
+.info__card p:last-child {
+  font-size: 14px; }
+
+.info__card p:first-child {
+  color: #a7a7a7; }
+
+.info__card p:last-child {
+  color: #4e4e4e; }
 
 /* sections */
 header {
