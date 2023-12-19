@@ -20,7 +20,7 @@ body {
 	-ms-text-size-adjust: 100%;
 	-moz-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
-    background-color: var(--main-black, #000);
+    background-color: var(--main-black, #FFFFFF);
 }
 
 body > * {
@@ -91,3 +91,9 @@ section {
 .footer {
 	margin-top: auto; /* sticky footer */
 }
+
+
+input {
+    border-radius: 7px;
+    border: 0.5px;
+  }
