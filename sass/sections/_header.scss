@@ -2,7 +2,11 @@ header {
     
 }
 
-.header__top__container {
+.logo__black{
+    z-index: 1;
+}
+
+.header__nav__container {
     background-color: white;
     display: flex;
     align-items: center;
@@ -18,12 +22,12 @@ header {
     background-color: #F5F5F5;
 }
 
-.header__top__icons {
+.header__nav__icons {
     max-width: 144px;
     display: flex;
 }
 
-.header__top__link {
+.header__nav__link {
     margin-right: 32px;
     width: 351px;
     display: flex;
@@ -32,18 +36,18 @@ header {
     justify-content: space-between;
 }
 
-.header__top__link a {
+.header__nav__link a {
     margin-right: 47px;
     font-size: 16px;
     line-height: 19.09px;
     transition: 0.2s linear;
 }
 
-.header__top__link a:hover {
+.header__nav__link a:hover {
     color: black;
 }
 
-.header__top__link a:last-child {
+.header__nav__link a:last-child {
     margin-right: 0;
 }
 
@@ -51,11 +55,11 @@ header {
     color: #000;
 }
 
-.header__top__icons a {
+.header__nav__icons a {
     margin-right: 24px;
 }
 
-.header__top__icons a:last-child {
+.header__nav__icons a:last-child {
     margin-right: 0;
 }
 .header__burger-btn{
@@ -125,7 +129,7 @@ header {
 }
 
 @media (max-width: 1200px) {
-    .header__top__container{
+    .header__nav__container{
         height: 88px;
     }
 
@@ -139,20 +143,23 @@ header {
     
 }
 @media (max-width: 992px) {
-    .header__top__container{
+    .header__nav__container{
         height: 88px;
         justify-content: space-between;
     }
     .menu{
         background-color: gray;
         position: absolute;
-        right: -120px;
         top: 0;
-        width: 120px;
+        left: 0;
+        width: 100%;
         padding: 75px 20px 20px 20px;
         transition: transform .5s;
+        display: flex;
+        justify-content: center;
+        transform: translateY(-100%);
     }
-    .header__top__link{
+    .header__nav__link{
         display: block;
         width: 100px;
         margin: 0;
@@ -165,7 +172,7 @@ header {
     }
 
     .header.open .menu{
-        transform: translateX(-100%);
+        transform: translateY(0%);
     }
     .search {
         display: none;
@@ -173,7 +180,7 @@ header {
     .header__search input{
         display: none;
     }
-    .header__top__icons{
+    .header__nav__icons{
         display: none;
     }
     .header__subnav{
