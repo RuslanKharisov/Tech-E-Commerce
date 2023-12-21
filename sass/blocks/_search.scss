@@ -1,0 +1,19 @@
+.search {
+    position: relative;
+  }
+  
+  .search::after {
+    content: '';
+    width: 24px;
+    height: 24px;
+    background: url('/images/Icons/Search-24.svg');
+    position: absolute;
+    top: 15px;
+    left: 15px;
+  }
+  
+  
+  .search input {
+      width: 216px;
+      padding: 23px 16px 23px 48px;
+  }

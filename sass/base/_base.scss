@@ -20,7 +20,7 @@ body {
 	-ms-text-size-adjust: 100%;
 	-moz-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
-    background-color: var(--main-black, #000);
+    background-color: var(--main-black, #FFFFFF);
 }
 
 body > * {
@@ -55,17 +55,17 @@ section {
 
     /* Tablet */
     @media (max-width: 1199px) {
-        width: 900px;
+        // width: 900px;
     }
 
     /* Mobile */
     @media (max-width: 899px) {
-        width: 600px;
+        // width: 600px;
     }
 
     /* Mobile XS */
     @media (max-width: 599px) {
-        width: 320px;
+        // width: 320px;
     }
 }
 
@@ -91,3 +91,9 @@ section {
 .footer {
 	margin-top: auto; /* sticky footer */
 }
+
+
+input {
+    border-radius: 7px;
+    border: 0.5px;
+  }
