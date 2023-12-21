@@ -1,6 +1,16 @@
 @font-face {
     font-family: "SF Pro Display";
+    src: url(./SF-Pro-Display-Ultralight.otf);
+    src: url(./SF-Pro-Display-Ultralight.woff2);
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "SF Pro Display";
     src: url(./SF-Pro-Display-Light.otf);
+    src: url(./SF-Pro-Display-Light.woff2);
     font-weight: 300;
     font-style: normal;
     font-display: swap;
@@ -9,6 +19,7 @@
 @font-face {
     font-family: "SF Pro Display";
     src: url(./SF-Pro-Display-Regular.otf);
+    src: url(./SF-Pro-Display-Regular.woff2);
     font-weight: 400;
     font-style: normal;
     font-display: swap;
@@ -17,6 +28,7 @@
 @font-face {
     font-family: "SF Pro Display";
     src: url(./SF-Pro-Display-Medium.otf);
+    src: url(./SF-Pro-Display-Medium.woff2);
     font-weight: 500;
     font-style: normal;
     font-display: swap;
@@ -25,6 +37,7 @@
 @font-face {
     font-family: "SF Pro Display";
     src: url(./SF-Pro-Display-Semibold.otf);
+    src: url(./SF-Pro-Display-Semibold.woff2);
     font-weight: 600;
     font-style: normal;
     font-display: swap;

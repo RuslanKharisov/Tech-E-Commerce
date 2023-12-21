@@ -1,242 +1,267 @@
 <!DOCTYPE html>
 <html lang="ru">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Tech-E-Commerce</title>
-        <link rel="stylesheet" href="./css/main.css" />
-        <link rel="stylesheet" href="./fonts/fonts.css" />
 
-        <script defer src="./js/main.js"></script>
-    </head>
-    <body>
-        <header class="header">
-            
-                <div class="header__nav">
-                    <div class="container">
-                        <div class="header__nav__container">
-                            <div class="logo__black">
-                                <a href="#">
-                                    <img src="images/logo/Logo Vector.png" alt="" />
-                                </a>
-                            </div>
-                            <label for="" class="search header__search">
-                                <span></span>
-                                <input type="search" placeholder="Search" />
-                            </label>
-                            <nav class="menu">
-                                <ul class="header__nav__link">
-                                    <li><a class="menu__link active" href="#">Home</a></li>
-                                    <li><a class="menu__link" href="#">About</a></li>
-                                    <li><a class="menu__link" href="#">Contuct Us</a></li>
-                                    <li><a class="menu__link" href="#">Blog</a></li>
-                                </ul>
-                            </nav>
-                            <div class="header__nav__icons">
-                                <a href="#">
-                                    <svg
-                                        width="32"
-                                        height="32"
-                                        viewBox="0 0 32 32"
-                                        fill="none"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                    >
-                                        <path
-                                            d="M11 7C8.239 7 6 9.216 6 11.95C6 14.157 6.875 19.395 15.488 24.69C15.6423 24.7839 15.8194 24.8335 16 24.8335C16.1806 24.8335 16.3577 24.7839 16.512 24.69C25.125 19.395 26 14.157 26 11.95C26 9.216 23.761 7 21 7C18.239 7 16 10 16 10C16 10 13.761 7 11 7Z"
-                                            stroke="#191919"
-                                            stroke-width="1.5"
-                                            stroke-linecap="round"
-                                            stroke-linejoin="round"
-                                        />
-                                    </svg>
-                                </a>
-                                <a href="#">
-                                    <svg
-                                        width="32"
-                                        height="32"
-                                        viewBox="0 0 32 32"
-                                        fill="none"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                    >
-                                        <path
-                                            d="M3 5H7L10 22H26M10 16.6667H25.59C25.7056 16.6667 25.8177 16.6267 25.9072 16.5535C25.9966 16.4802 26.0579 16.3782 26.0806 16.2648L27.8806 7.26479C27.8951 7.19222 27.8934 7.11733 27.8755 7.04552C27.8575 6.97372 27.8239 6.90679 27.7769 6.84956C27.73 6.79234 27.6709 6.74625 27.604 6.71462C27.5371 6.68299 27.464 6.66662 27.39 6.66667H8M12 26C12 26.5523 11.5523 27 11 27C10.4477 27 10 26.5523 10 26C10 25.4477 10.4477 25 11 25C11.5523 25 12 25.4477 12 26ZM26 26C26 26.5523 25.5523 27 25 27C24.4477 27 24 26.5523 24 26C24 25.4477 24.4477 25 25 25C25.5523 25 26 25.4477 26 26Z"
-                                            stroke="#191919"
-                                            stroke-width="1.5"
-                                            stroke-linecap="round"
-                                            stroke-linejoin="round"
-                                        />
-                                    </svg>
-                                </a>
-                                <a href="#">
-                                    <svg
-                                        width="32"
-                                        height="32"
-                                        viewBox="0 0 32 32"
-                                        fill="none"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                    >
-                                        <path
-                                            d="M24 27V24.3333C24 22.9188 23.5224 21.5623 22.6722 20.5621C21.8221 19.5619 20.669 19 19.4667 19H11.5333C10.331 19 9.17795 19.5619 8.32778 20.5621C7.47762 21.5623 7 22.9188 7 24.3333V27M21 9.5C21 11.9853 18.9853 14 16.5 14C14.0147 14 12 11.9853 12 9.5C12 7.01472 14.0147 5 16.5 5C18.9853 5 21 7.01472 21 9.5Z"
-                                            stroke="#191919"
-                                            stroke-width="1.5"
-                                            stroke-linecap="round"
-                                            stroke-linejoin="round"
-                                        />
-                                    </svg>
-                                </a>
-                            </div>
-                            <button class="header__burger-btn" id="burger">
-                                <span></span><span></span><span></span>
-                            </button>
-                        </div>
-                    </div>
-                </div>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tech-E-Commerce</title>
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./fonts/fonts.css" />
 
-                <div class="header__subnav">
-                    <div class="container">
-                        <div class="container container__subnav">
-                            <div class="header__subnav-item">
-                                <img src="images/Icons/Phones-24.svg" alt="phone" />
-                                <p>Phones</p>
-                            </div>
-                            <div class="header__subnav-item">
-                                <img src="images/Icons/Computers-24.svg" alt="phone" />
-                                <p>Computers</p>
-                            </div>
-                            <div class="header__subnav-item">
-                                <img src="images/Icons/Gaming-24.svg" alt="phone" />
-                                <p>Smart Watches</p>
-                            </div>
-                            <div class="header__subnav-item">
-                                <img src="images/Icons/Cameras-24.svg" alt="phone" />
-                                <p>Cameras</p>
-                            </div>
-                            <div class="header__subnav-item">
-                                <img src="images/Icons/Headphones-24.svg" alt="phone" />
-                                <p>Headphones</p>
-                            </div>
-                            <div class="header__subnav-item">
-                                <img src="images/Icons/Gaming-24.svg" alt="phone" />
-                                <p>Gaming</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+    <script defer src="./js/main.js"></script>
+</head>
 
-                <div class="header__banner">
-                    <div class="container">
-                        <div class="header__banner-wrapper">
-                            <div class="header__banner-column">
-                                <div class="header__banner-info">Pro.Beyond.</div>
-                                <div class="header__banner-title">IPhone 14 <span>Pro</span></div>
-                                <div class="header__banner-message">Created to change everything for the better. For everyone</div>
-                                <div class="header__banner-btn">
-                                    <a class="button btn__white" href="#">
-                                        ShopNow
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="header__banner-image">
-                                <img src="./images/header-banner/Iphone Image.png" alt="">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            
-        </header>
-
-        <!-- footer section -->
-        <footer class="footer">
+<body>
+    <header class="header">
+        <div class="header__nav">
             <div class="container">
-                <div class="footer__top">
-                    <div class="footer__info-column">
-                        <div class="footer__logo logo__white">
-                            <a href="">
-                                <img src="images/logo/logo-white.png" alt="" />
-                            </a>
-                        </div>
-                        <div class="footer__info-meesage">
-                            We are a residential interior design firm located in
-                            Portland. Our boutique-studio offers more than
-                        </div>
+                <div class="header__nav__container">
+                    <div class="logo__black">
+                        <a href="#">
+                            <img src="images/logo/Logo Vector.png" alt="" />
+                        </a>
                     </div>
-                    <div class="footer__columns">
-                        <div class="footer__column">
-                            <div class="footer__column-title">Services</div>
-                            <ul class="footer__column">
-                                <li class="footer__column-item">
-                                    Bonus program
-                                </li>
-                                <li class="footer__column-item">Gift cards</li>
-                                <li class="footer__column-item">
-                                    Credit and payment
-                                </li>
-                                <li class="footer__column-item">
-                                    Service contracts
-                                </li>
-                                <li class="footer__column-item">
-                                    Non-cash account
-                                </li>
-                                <li class="footer__column-item">Payment</li>
-                            </ul>
-                        </div>
-                        <div class="footer__column">
-                            <div class="footer__column-title">Services</div>
-                            <ul class="footer__column">
-                                <li class="footer__column-item">
-                                    Find an order
-                                </li>
-                                <li class="footer__column-item">
-                                    Terms of delivery
-                                </li>
-                                <li class="footer__column-item">
-                                    Exchange and return of goods
-                                </li>
-                                <li class="footer__column-item">Guarantee</li>
-                                <li class="footer__column-item">
-                                    Frequently asked questions
-                                </li>
-                                <li class="footer__column-item">
-                                    Terms of use of the site
-                                </li>
-                            </ul>
-                        </div>
+                    <label for="" class="search header__search">
+                        <span></span>
+                        <input type="search" placeholder="Search" />
+                    </label>
+                    <nav class="menu">
+                        <ul class="header__nav__link">
+                            <li>
+                                <a class="menu__link active" href="#">Home</a>
+                            </li>
+                            <li>
+                                <a class="menu__link" href="#">About</a>
+                            </li>
+                            <li>
+                                <a class="menu__link" href="#">Contuct Us</a>
+                            </li>
+                            <li><a class="menu__link" href="#">Blog</a></li>
+                        </ul>
+                    </nav>
+                    <div class="header__nav__icons">
+                        <a href="#">
+                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M11 7C8.239 7 6 9.216 6 11.95C6 14.157 6.875 19.395 15.488 24.69C15.6423 24.7839 15.8194 24.8335 16 24.8335C16.1806 24.8335 16.3577 24.7839 16.512 24.69C25.125 19.395 26 14.157 26 11.95C26 9.216 23.761 7 21 7C18.239 7 16 10 16 10C16 10 13.761 7 11 7Z"
+                                    stroke="#191919" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </a>
+                        <a href="#">
+                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M3 5H7L10 22H26M10 16.6667H25.59C25.7056 16.6667 25.8177 16.6267 25.9072 16.5535C25.9966 16.4802 26.0579 16.3782 26.0806 16.2648L27.8806 7.26479C27.8951 7.19222 27.8934 7.11733 27.8755 7.04552C27.8575 6.97372 27.8239 6.90679 27.7769 6.84956C27.73 6.79234 27.6709 6.74625 27.604 6.71462C27.5371 6.68299 27.464 6.66662 27.39 6.66667H8M12 26C12 26.5523 11.5523 27 11 27C10.4477 27 10 26.5523 10 26C10 25.4477 10.4477 25 11 25C11.5523 25 12 25.4477 12 26ZM26 26C26 26.5523 25.5523 27 25 27C24.4477 27 24 26.5523 24 26C24 25.4477 24.4477 25 25 25C25.5523 25 26 25.4477 26 26Z"
+                                    stroke="#191919" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </a>
+                        <a href="#">
+                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M24 27V24.3333C24 22.9188 23.5224 21.5623 22.6722 20.5621C21.8221 19.5619 20.669 19 19.4667 19H11.5333C10.331 19 9.17795 19.5619 8.32778 20.5621C7.47762 21.5623 7 22.9188 7 24.3333V27M21 9.5C21 11.9853 18.9853 14 16.5 14C14.0147 14 12 11.9853 12 9.5C12 7.01472 14.0147 5 16.5 5C18.9853 5 21 7.01472 21 9.5Z"
+                                    stroke="#191919" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </a>
                     </div>
+                    <button class="header__burger-btn" id="burger">
+                        <span></span><span></span><span></span>
+                    </button>
                 </div>
+            </div>
+        </div>
 
-                <div class="footer__bottom">
-                    <div class="social-list social-list--footer">
-                        <a href="#">
-                            <img
-                                class="svg-size"
-                                src="./images/Icons/Twitter-16.svg"
-                                alt="twitter"
-                            />
-                        </a>
-                        <a href="#">
-                            <img
-                                class="svg-size"
-                                src="./images/Icons/Facebook-16.svg"
-                                alt="facebook"
-                            />
-                        </a>
-                        <a href="#">
-                            <img
-                                class="svg-size"
-                                src="./images/Icons/Tiktok-16.svg"
-                                alt="tiktok"
-                            />
-                        </a>
-                        <a href="#">
-                            <img
-                                class="svg-size"
-                                src="./images/Icons/Instagram-16.svg"
-                                alt="instagramm"
-                            />
-                        </a>
+        <div class="header__subnav">
+            <div class="container">
+                <div class="container container__subnav">
+                    <div class="header__subnav-item">
+                        <img src="images/Icons/Phones-24.svg" alt="phone" />
+                        <p>Phones</p>
+                    </div>
+                    <div class="header__subnav-item">
+                        <img src="images/Icons/Computers-24.svg" alt="phone" />
+                        <p>Computers</p>
+                    </div>
+                    <div class="header__subnav-item">
+                        <img src="images/Icons/Gaming-24.svg" alt="phone" />
+                        <p>Smart Watches</p>
+                    </div>
+                    <div class="header__subnav-item">
+                        <img src="images/Icons/Cameras-24.svg" alt="phone" />
+                        <p>Cameras</p>
+                    </div>
+                    <div class="header__subnav-item">
+                        <img src="images/Icons/Headphones-24.svg" alt="phone" />
+                        <p>Headphones</p>
+                    </div>
+                    <div class="header__subnav-item">
+                        <img src="images/Icons/Gaming-24.svg" alt="phone" />
+                        <p>Gaming</p>
                     </div>
                 </div>
             </div>
-        </footer>
-    </body>
+        </div>
+
+        <div class="header__banner">
+            <div class="container">
+                <div class="header__banner-wrapper">
+                    <div class="header__banner-column">
+                        <div class="header__banner-info">Pro.Beyond.</div>
+                        <div class="header__banner-title">
+                            IPhone 14 <span>Pro</span>
+                        </div>
+                        <div class="header__banner-message">
+                            Created to change everything for the better. For
+                            everyone
+                        </div>
+                        <div class="header__banner-btn">
+                            <a class="button btn__white" href="#">
+                                ShopNow
+                            </a>
+                        </div>
+                    </div>
+                    <div class="header__banner-image">
+                        <img src="./images/header-banner/Iphone Image.png" alt="" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="banners__greed">
+        <div class="left-top">
+            <div class="banners__greed-image">
+                <img src="./images/banners-greed/playstation-01.png" alt="" />
+            </div>
+            <div class="banners__greed-column">
+                <div class="banners__greed-title">Playstation 5</div>
+                <div class="banners__greed-message">
+                    Incredibly powerful CPUs, GPUs, and an SSD with
+                    integrated I/O will redefine your PlayStation
+                    experience.
+                </div>
+            </div>
+        </div>
+        <div class="bottom-left">
+            <div class="banners__greed-image">
+                <img src="./images/banners-greed/air-pod-max-01.png" alt="" />
+            </div>
+            <div class="banners__greed-column">
+                <div class="banners__greed-title">
+                    Apple AirPods <span>Max</span>
+                </div>
+                <div class="banners__greed-message">
+                    Computational audio. Listen, it's powerful
+                </div>
+            </div>
+        </div>
+        <div class="bottom-right">
+            <div class="banners__greed-image">
+                <img src="./images/banners-greed/fpple-vision-pro-01.png" alt="" />
+            </div>
+            <div class="banners__greed-column">
+                <div class="banners__greed-title">
+                    Apple Vision <span>Pro</span> Pro
+                </div>
+                <div class="banners__greed-message">
+                    An immersive way to experience entertainment
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <div class="banners__greed-image">
+                <img src="./images/banners-greed/apple-macbook-air.png" alt="" />
+            </div>
+            <div class="banners__greed-column">
+                <div class="banners__greed-title">Macbook <span>Air</span></div>
+                <div class="banners__greed-message">
+                    The new 15‑inch MacBook Air makes room for more of what you
+                    love with a spacious Liquid Retina display.
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer section -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__top">
+                <div class="footer__info-column">
+                    <div class="footer__logo logo__white">
+                        <a href="">
+                            <img src="images/logo/logo-white.png" alt="" />
+                        </a>
+                    </div>
+                    <div class="footer__info-meesage">
+                        We are a residential interior design firm located in
+                        Portland. Our boutique-studio offers more than
+                    </div>
+                </div>
+                <div class="footer__columns">
+                    <div class="footer__column">
+                        <div class="footer__column-title">Services</div>
+                        <ul class="footer__column">
+                            <li class="footer__column-item">
+                                Bonus program
+                            </li>
+                            <li class="footer__column-item">Gift cards</li>
+                            <li class="footer__column-item">
+                                Credit and payment
+                            </li>
+                            <li class="footer__column-item">
+                                Service contracts
+                            </li>
+                            <li class="footer__column-item">
+                                Non-cash account
+                            </li>
+                            <li class="footer__column-item">Payment</li>
+                        </ul>
+                    </div>
+                    <div class="footer__column">
+                        <div class="footer__column-title">Services</div>
+                        <ul class="footer__column">
+                            <li class="footer__column-item">
+                                Find an order
+                            </li>
+                            <li class="footer__column-item">
+                                Terms of delivery
+                            </li>
+                            <li class="footer__column-item">
+                                Exchange and return of goods
+                            </li>
+                            <li class="footer__column-item">Guarantee</li>
+                            <li class="footer__column-item">
+                                Frequently asked questions
+                            </li>
+                            <li class="footer__column-item">
+                                Terms of use of the site
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer__bottom">
+                <div class="social-list social-list--footer">
+                    <a href="#">
+                        <img class="svg-size" src="./images/Icons/Twitter-16.svg" alt="twitter" />
+                    </a>
+                    <a href="#">
+                        <img class="svg-size" src="./images/Icons/Facebook-16.svg" alt="facebook" />
+                    </a>
+                    <a href="#">
+                        <img class="svg-size" src="./images/Icons/Tiktok-16.svg" alt="tiktok" />
+                    </a>
+                    <a href="#">
+                        <img class="svg-size" src="./images/Icons/Instagram-16.svg" alt="instagramm" />
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
 </html>
