@@ -1,7 +1,7 @@
 .banners__greed {  
     display: grid;
     grid-template-columns: 1fr 1fr 2fr;
-    grid-template-rows: 1fr 0.8fr;
+    grid-template-rows: 1fr 1fr;
     gap: 0px 0px;
     grid-auto-flow: row;
     grid-template-areas:
@@ -45,20 +45,20 @@
 
 .bottom-left { 
     grid-area: bottom-left;
-    max-height: 272px; 
+    // max-height: 272px; 
     background-color: #EDEDED;
      
 }
   
 .bottom-right { 
     grid-area: bottom-right; 
-    max-height: 272px;
+    // max-height: 272px;
     background-color: #353535;
 }
 
 .right { 
     grid-area: right;
-    max-height: 600px;
+    // max-height: 600px;
     background-color: #EDEDED;
     padding-left: 50px;
     flex-direction: row-reverse;

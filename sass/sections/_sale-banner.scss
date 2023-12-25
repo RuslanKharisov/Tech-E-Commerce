@@ -1,0 +1,42 @@
+.sale {
+    padding-top: 160px;
+    padding-bottom: 90px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-image: url('../../images/botom-banner/Banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+    @media (max-width: 767.98px) {
+        background-image: url('../../images/botom-banner/Banner-xs.jpg');
+    }
+}
+
+
+.sale__content{    
+    text-align: center;    
+}
+
+.banner-title--sale {
+    font-size: 86px;
+    margin-bottom: 25px;
+
+    @media (max-width: 991.98px) {
+        font-size: 48px;
+    }
+}
+
+.banner-subtitle--sale{
+    margin-bottom: 40px;
+
+    @media (max-width: 991.98px) {
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+}
+
+.button--sale{
+    margin: 0 auto;
+}
