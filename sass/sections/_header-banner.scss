@@ -38,32 +38,9 @@
     }
 }
 
-.header__banner-title {
-    font-size: 96px;
-    font-style: normal;
-    font-weight: 200;
-    line-height: 0.75;
-    letter-spacing: -0.96px;
 
-    @media (max-width: 991.98px) {
-        font-size: 74px;
-    }
 
-    @media (max-width: 767.98px) {
-        font-size: 72px;
-    }
-}
 
-.header__banner-title span{
-    font-weight: 600;
-}
-
-.header__banner-message {
-    color: #909090;
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 1.33;
-}
 .header__banner-btn {
 }
 .btn__white {
