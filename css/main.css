@@ -86,7 +86,7 @@ body {
   flex-direction: column;
   /* sticky footer */
   color: var(--main-text, #CFCFCF);
-  font-family: "SF Pro Display", sans-serif;
+  font-family: 'SF Pro Display', sans-serif;
   /* sans-serif font family */
   font-size: 16px;
   font-weight: 500;
@@ -146,6 +146,28 @@ section {
 input {
   border-radius: 7px;
   border: 0.5px; }
+
+.banner-title {
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: 0.75;
+  letter-spacing: -0.96px; }
+  @media (max-width: 991.98px) {
+    .banner-title {
+      font-size: 74px; } }
+  @media (max-width: 767.98px) {
+    .banner-title {
+      font-size: 72px; } }
+
+.banner-title span {
+  font-weight: 600; }
+
+.banner-subtitle {
+  color: #909090;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.33; }
 
 /* blocks */
 .logo__container {
@@ -427,9 +449,6 @@ input {
   display: flex;
   flex-direction: column;
   width: 251px; }
-
-h1 {
-  margin-bottom: 16px; }
 
 .content__card {
   display: flex;
@@ -1001,28 +1020,6 @@ input[type="radio"]:checked::before {
     .header__banner-info {
       margin-top: 88px; } }
 
-.header__banner-title {
-  font-size: 96px;
-  font-style: normal;
-  font-weight: 200;
-  line-height: 0.75;
-  letter-spacing: -0.96px; }
-  @media (max-width: 991.98px) {
-    .header__banner-title {
-      font-size: 74px; } }
-  @media (max-width: 767.98px) {
-    .header__banner-title {
-      font-size: 72px; } }
-
-.header__banner-title span {
-  font-weight: 600; }
-
-.header__banner-message {
-  color: #909090;
-  font-size: 18px;
-  font-weight: 500;
-  line-height: 1.33; }
-
 .header__banner-image {
   margin-top: 73px;
   max-width: 406px; }
@@ -1075,17 +1072,14 @@ input[type="radio"]:checked::before {
 
 .bottom-left {
   grid-area: bottom-left;
-  max-height: 272px;
   background-color: #EDEDED; }
 
 .bottom-right {
   grid-area: bottom-right;
-  max-height: 272px;
   background-color: #353535; }
 
 .right {
   grid-area: right;
-  max-height: 600px;
   background-color: #EDEDED;
   padding-left: 50px;
   flex-direction: row-reverse; }
@@ -1220,5 +1214,98 @@ input[type="radio"]:checked::before {
   font-size: 14px;
   font-weight: 500;
   line-height: 1.7; }
+
+.sale {
+  padding-top: 160px;
+  padding-bottom: 90px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-image: url("../../images/botom-banner/Banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center; }
+  @media (max-width: 767.98px) {
+    .sale {
+      background-image: url("../../images/botom-banner/Banner-xs.jpg"); } }
+
+.sale__content {
+  text-align: center; }
+
+.banner-title--sale {
+  font-size: 86px;
+  margin-bottom: 25px; }
+  @media (max-width: 991.98px) {
+    .banner-title--sale {
+      font-size: 48px; } }
+
+.banner-subtitle--sale {
+  margin-bottom: 40px; }
+  @media (max-width: 991.98px) {
+    .banner-subtitle--sale {
+      font-size: 14px;
+      margin-bottom: 20px; } }
+
+.button--sale {
+  margin: 0 auto; }
+
+.card__category {
+  display: flex;
+  margin: 0 auto; }
+
+.card__category__item {
+  align-items: center;
+  text-align: center;
+  max-width: 360px;
+  height: 640px; }
+
+.card__category__item.item-2 {
+  background-color: #F9F9F9; }
+
+.card__category__item.item-3 {
+  background-color: #EAEAEA; }
+
+.card__category__item.item-4 {
+  background-color: #2C2C2C; }
+
+.card__category__item.item-4 {
+  background-color: #2C2C2C; }
+
+.card__category__item.item-1 .card__category-img {
+  background-image: url(/images/card_category/image\ 39.png);
+  height: 336px; }
+
+.card__category-img {
+  background-size: contain;
+  background-repeat: no-repeat;
+  max-width: 100%;
+  max-height: 336px; }
+
+.card__category-img img {
+  margin: 0 auto; }
+
+.card__category__description {
+  margin: 68px 32px 0 32px;
+  text-align: left;
+  max-width: 296px;
+  max-height: 208px; }
+
+.card__category__description h3 {
+  font-family: SF Pro Display;
+  color: black;
+  font-size: 33px;
+  font-weight: 300;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: left; }
+
+.card__category__description-p {
+  font-family: SF Pro Display;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em; }
 
 /*# sourceMappingURL=main.css.map */
